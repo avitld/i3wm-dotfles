@@ -1,0 +1,38 @@
+! Colors
+URxvt.foreground:	#f288e7
+URxvt.background:	#342231
+URxvt.cursorColor:	#f288e7
+
+URxvt.color0:		#956a94
+URxvt.color1:		#a54242
+URxvt.color2:		#ae4d4d
+URxvt.color3:		#e263a5
+URxvt.color4:		#5f819d
+URxvt.color5:		#85678f
+URxvt.color6:		#5e8d87
+URxvt.color7:		#707880
+URxvt.color8:		#80747e
+URxvt.color9:		#cc6666
+URxvt.color10:		#ff457f
+URxvt.color11:		#d371bf
+URxvt.color12:		#81a2be
+URxvt.color13:		#b294bb
+URxvt.color14:		#fdceff
+URxvt.color15:		#f288e7
+
+! Scrolling
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt*scrollTtyOutput: false
+URxvt.scrollBar: false
+
+! Fonts
+
+URxvt.font: xft:Ubuntu Mono:antialias=true:Size=8
+
+! Keybinds
+
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.iso14755: false
+URxvt.iso14755_52: false
